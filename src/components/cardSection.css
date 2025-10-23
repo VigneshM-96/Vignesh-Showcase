@@ -1,0 +1,52 @@
+/* src/components/cardSection.css */
+.card-section {
+  padding: 120px 40px 60px;
+  background: #111;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffb84d;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.card {
+  background: rgba(25, 25, 35, 0.9);
+  border-radius: 14px;
+  padding: 20px;
+  width: 260px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(255, 184, 77, 0.5);
+}

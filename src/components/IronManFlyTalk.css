@@ -1,0 +1,50 @@
+.ironman-container {
+  position: fixed;
+  z-index: 2000;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speech-bubble {
+  background: rgba(5, 5, 10, 0.85);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  max-width: 220px;
+  text-align: center;
+  margin-bottom: 12px; /* space above Iron Man */
+  box-shadow: 0 6px 24px rgba(0,0,0,0.6), inset 0 -1px 0 rgba(255,255,255,0.02);
+  word-wrap: break-word;
+}
+
+/* Flip bubble tail if needed */
+.speech-bubble.left::after,
+.speech-bubble.right::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: rgba(5,5,10,0.85) transparent transparent transparent;
+}
+
+.ironman-img {
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Flip Iron Man horizontally when on right */
+.ironman-img.left {
+  transform: scaleX(1);
+}
+
+.ironman-img.right {
+  transform: scaleX(-1);
+}

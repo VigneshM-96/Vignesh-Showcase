@@ -1,0 +1,62 @@
+.ironman-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  will-change: transform;
+  pointer-events: none;
+}
+
+/* ironman image */
+.ironman-img {
+  width: 92px;
+  height: auto;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.6));
+}
+
+/* bubble base */
+.ironman-bubble {
+  position: relative;
+  background: linear-gradient(180deg, rgba(12,12,16,0.96), rgba(20,20,26,0.96));
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 12px;
+  max-width: 300px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5), inset 0 -1px 0 rgba(255,255,255,0.02);
+  pointer-events: none;
+  white-space: normal;
+}
+
+/* bubble appears LEFT of Iron Man (Iron Man on right) */
+.bubble-left {
+  margin-right: 8px;
+}
+.bubble-left::after{
+  content: "";
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent rgba(10,10,12,0.96);
+}
+
+/* bubble appears RIGHT of Iron Man (Iron Man on left) */
+.bubble-right {
+  margin-left: 8px;
+}
+.bubble-right::after{
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent rgba(10,10,12,0.96) transparent transparent;
+}

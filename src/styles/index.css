@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, black, #1f2937);
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.talk-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: rgba(64, 64, 64, 0.5);
+  padding: 15px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.talk-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.talk-message {
+  font-size: 1.2rem;
+}
+
+.section {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  padding: 20px;
+  background: rgba(40, 40, 40, 0.7);
+  border-radius: 12px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  margin-top: 40px;
+}
