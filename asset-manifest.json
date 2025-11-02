@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/VigneshM-96/Vignesh-Showcase/static/css/main.da876618.css",
+    "main.js": "/VigneshM-96/Vignesh-Showcase/static/js/main.bd7715be.js",
+    "static/media/ironman.png": "/VigneshM-96/Vignesh-Showcase/static/media/ironman.d3349b11d5dafeb6da6e.png",
+    "static/media/avengers.png": "/VigneshM-96/Vignesh-Showcase/static/media/avengers.3623e6ec3e45939ec08f.png",
+    "static/media/developer.jpeg": "/VigneshM-96/Vignesh-Showcase/static/media/developer.a695962281cc67a5bfa0.jpeg",
+    "static/media/creative.png": "/VigneshM-96/Vignesh-Showcase/static/media/creative.89bc2196896b335a1e88.png",
+    "static/media/ml.png": "/VigneshM-96/Vignesh-Showcase/static/media/ml.275bd556dd50b2ec6060.png",
+    "static/media/code.png": "/VigneshM-96/Vignesh-Showcase/static/media/code.621a717a0cb100cebcde.png",
+    "index.html": "/VigneshM-96/Vignesh-Showcase/index.html",
+    "main.da876618.css.map": "/VigneshM-96/Vignesh-Showcase/static/css/main.da876618.css.map",
+    "main.bd7715be.js.map": "/VigneshM-96/Vignesh-Showcase/static/js/main.bd7715be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da876618.css",
+    "static/js/main.bd7715be.js"
+  ]
+}
