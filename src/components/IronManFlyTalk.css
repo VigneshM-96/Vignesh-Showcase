@@ -10,10 +10,10 @@
 .speech-bubble {
   background: rgba(5, 5, 10, 0.85);
   color: #fff;
-  padding: 10px 14px;
+  padding: 5px 9px;
   border-radius: 12px;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.7rem;
   max-width: 220px;
   text-align: center;
   margin-bottom: 12px; /* space above Iron Man */
@@ -35,10 +35,13 @@
 }
 
 .ironman-img {
+  width: 70px !important;   /* you can adjust this value */
+  height: auto !important;
   display: block;
   user-select: none;
   pointer-events: none;
 }
+
 
 /* Flip Iron Man horizontally when on right */
 .ironman-img.left {
