@@ -64,7 +64,7 @@ export default function IronManFlyTalk() {
           const bubbleWidth = 220;
 
           let newX = moveRight
-            ? Math.min(window.innerWidth - ironmanWidth - padding, window.innerWidth * 0.5)
+            ? Math.min(window.innerWidth - ironmanWidth - padding, window.innerWidth * 0.4)
             : padding;
 
           let newY = Math.min(window.innerHeight - ironmanWidth - 50, window.innerHeight * 0.25);
