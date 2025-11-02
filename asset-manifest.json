@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Vignesh-Showcase/static/css/main.da876618.css",
-    "main.js": "/Vignesh-Showcase/static/js/main.df05bee4.js",
+    "main.css": "/Vignesh-Showcase/static/css/main.24927acf.css",
+    "main.js": "/Vignesh-Showcase/static/js/main.fce1d4ce.js",
     "static/media/ironman.png": "/Vignesh-Showcase/static/media/ironman.d3349b11d5dafeb6da6e.png",
     "static/media/avengers.png": "/Vignesh-Showcase/static/media/avengers.3623e6ec3e45939ec08f.png",
     "static/media/developer.jpeg": "/Vignesh-Showcase/static/media/developer.a695962281cc67a5bfa0.jpeg",
@@ -9,11 +9,11 @@
     "static/media/ml.png": "/Vignesh-Showcase/static/media/ml.275bd556dd50b2ec6060.png",
     "static/media/code.png": "/Vignesh-Showcase/static/media/code.621a717a0cb100cebcde.png",
     "index.html": "/Vignesh-Showcase/index.html",
-    "main.da876618.css.map": "/Vignesh-Showcase/static/css/main.da876618.css.map",
-    "main.df05bee4.js.map": "/Vignesh-Showcase/static/js/main.df05bee4.js.map"
+    "main.24927acf.css.map": "/Vignesh-Showcase/static/css/main.24927acf.css.map",
+    "main.fce1d4ce.js.map": "/Vignesh-Showcase/static/js/main.fce1d4ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.da876618.css",
-    "static/js/main.df05bee4.js"
+    "static/css/main.24927acf.css",
+    "static/js/main.fce1d4ce.js"
   ]
 }
